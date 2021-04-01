@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "fake rest api for ionic 4 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

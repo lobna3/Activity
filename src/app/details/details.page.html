@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button>
+      </ion-back-button>
+      
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-img button  [src]="(produitDetail | async)?.image">  </ion-img>
+  <ion-card no-margin>
+    
+      <ion-card-header>
+         <ion-card-title>
+          {{ (produitDetail | async)?.name }}
+         </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{ (produitDetail | async)?.description }}
+      </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-list lines="none">
+      <ion-item>
+        <ion-label>
+         Duration
+        </ion-label>
+        <ion-chip color="secondary"> {{ (produitDetail | async)?.duration }}</ion-chip>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>
+          Popularity
+        </ion-label>
+        <ion-chip color="secondary"> {{ (produitDetail | async)?.popularity }}</ion-chip>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>
+          Category
+        </ion-label>
+        <ion-chip color="secondary"> {{ (produitDetail | async)?.category }}</ion-chip>
+      </ion-item>
+
+    </ion-list>
+  </ion-card>
+ 
+</ion-content>

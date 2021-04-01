@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card button *ngFor="let article of   produitList | async" [routerLink]="['/details',article.id]">
+    <ion-img  [src]="article.image">  </ion-img>
+      <ion-card-header>
+         <ion-card-title>
+           {{article.name}}
+         </ion-card-title>
+      </ion-card-header>
+  
+  </ion-card>
+ 
+ 
+ 
+ 
+</ion-content>

@@ -1,0 +1,112 @@
+{
+  "activities": [
+    {
+      "id": "8",
+      "name": "WINTER ACTIVITIES",
+      "description": "It’s the four-letter word many of us yell as winter arrives: S-n-o-w! As cooler temperatures start to settle in, the Midwest is transformed into a winter wonderland. Whether you enjoy spending time on the slopes or snuggled by a fire, winter can be a great time for family bonding.",
+      "image": "assets/imgs/1.jpg",
+      "duration": "00:30:00",
+      "created_by": "lobna",
+      "popularity": "3",
+      "category_id": "8",
+      "category": " WINTER ACTIVITIES ",
+      "keyWords": "FUN WINTER ACTIVITIES FOR THE ENTIRE FAMILY"
+    },
+    {
+      "id": "7",
+      "name": "GO SKIING",
+      "description": "During the winter months, colder regions automatically expect snow piling up their neighborhoods. While this might seem bothersome for some people, sports and travel enthusiasts see this opportunity to go skiing.",
+      "image": "assets/imgs/ski1.jpg",
+      "duration": "01:10:00",
+      "popularity": "10",
+      "category_id": "7",
+      "category": "SPORTS TRAVEL",
+      "keyWords": "SPORTS TRAVEL",
+      "created_by": "Activity Center"
+    },
+    {
+      "id": "4",
+      "name": "Painting",
+      "description": " This abstract painting class is great for beginners as no previous art skills are required. You will be introduced to the major themes in abstract painting, and learn everything about colour, using texture.",
+      "image": "assets/imgs/pain.jpg",
+      "duration": "01:25:00",
+      "created_by": "Activity center",
+      "popularity": "2",
+      "category_id": "4",
+      "category": "Painting",
+      "keyWords": "Painting"
+    },
+    {
+      "id": "1",
+      "name": "Surf survivor",
+      "description": "Surfing with one arm is challenging; surfing Pipeline with one arm is simply amazing. Her strong, powerful surfing in the 3- to 4-foot waves at the famous Banzai Pipeline in Hawaii gave her a commanding win over her competitors.",
+      "image": "assets/imgs/surf2.jpg",
+      "duration": "00:10:36",
+      "created_by": "Activity center",
+      "popularity": "3",
+      "category_id": "2",
+      "category": "Surfing",
+      "keyWords": "Surfing,cornwall,lessons"
+    },
+    {
+      "id": "2",
+      "name": "Sea kayaking Tour",
+      "description": "We offer a range of guided kayaking tours and freedom rental sea kayaking trips in the Abel Tasman National Park. Our guided kayak tours will take you along a stunning stretch of coastline for a fantastic sea kayaking experience.   ",
+      "image": "assets/imgs/sea2.jpg",
+      "duration": "00:08:38",
+      "created_by": "Activity center",
+      "popularity": "4",
+      "category_id": "12",
+      "category": "Sea kayaking",
+      "keyWords": "Sea kayaking"
+    },
+    {
+      "id": "3",
+      "name": "Spray Paint",
+      "description": " Rainbows are a symbol of hope and a good reminder that while we have storms in life, the sunshine always follows. They also make fun art - for these same reasons - and because they're PRETTY! ",
+      "image": "assets/imgs/spray1.jpg",
+      "duration": "00:30:00",
+      "created_by": "Activity center",
+      "popularity": "7",
+      "category_id": "3",
+      "category": "Spray Paint",
+      "keyWords": "Spray Paint"
+    },
+    {
+      "id": "6",
+      "description": "Choosing your Family Surfing Holiday It is never easy planning a family holiday let alone a family surfing holiday! We have made it easier with a selection of our 8 best family surfing holiday options in Portugal. ",
+      "image": "assets/imgs/family.jpg",
+      "duration": "01:25:15",
+      "name": "Family surf",
+      "category": "Family surf",
+      "popularity": "10",
+      "created_by": "Center",
+      "keyWords": "Family surf",
+      "category_id": "6"
+    },
+    {
+      "id": "5",
+      "name": "Snorkel kayak",
+      "description": " Explore Maui’s beautiful West Shore on this snorkeling and kayaking tour. Led by a professional guide, you’ll paddle past scenic views of the Ukumehame Valley and snorkel over bright schools of fish.",
+      "image": "assets/imgs/image5.jpg",
+      "duration": "02:30:00",
+      "created_by": "Activity center",
+      "popularity": "3",
+      "category_id": "5",
+      "category": "Snorkel kayak",
+      "keyWords": "Snorkel kayak"
+    },
+    {
+      "id": "9",
+      "name": "Family Activity ",
+      "description": " We drive up into the mountains of Langdale. This keeps walking times to a minimum, and always gets a thumbs up from  the kids. After getting kitted out with helmets & harnesses, we start with an introduction to Rock Scrambling, this provides a taste for adventure on rock, building confidence along the way and allowing for fast & fun progress into the mountains.",
+      "image": "assets/imgs/12.jpg",
+      "duration": "00:10:30",
+      "created_by": "lobna",
+      "popularity": "5",
+      "category_id": "9",
+      "category": "Family Activity Days",
+      "keyWords": "Family Activity Days"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button>
+      </ion-back-button>
+      
+    </ion-buttons>
+    <ion-title>modifier</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item >
+    <ion-label >Name</ion-label>
+    <ion-input [(ngModel)]="data.name"></ion-input>
+  </ion-item>
+
+  <ion-item >
+    <ion-label >Description</ion-label>
+    <ion-input [(ngModel)]="data.description"></ion-input>
+  </ion-item>
+
+  <ion-item >
+   <ion-label >Image</ion-label>
+   <ion-input [(ngModel)]="data.image"></ion-input>
+ </ion-item>
+
+ <ion-item >
+  <ion-label >Duration</ion-label>
+  <ion-input  [(ngModel)]="data.duration"></ion-input>
+</ion-item>
+
+<ion-item >
+  <ion-label >Created_by</ion-label>
+  <ion-input  [(ngModel)]="data.created_by"></ion-input>
+</ion-item>
+
+<ion-item >
+  <ion-label >Popularity</ion-label>
+  <ion-input  [(ngModel)]="data.popularity"></ion-input>
+</ion-item>
+
+<ion-item >
+  <ion-label >Category_id</ion-label>
+  <ion-input  [(ngModel)]="data.category_id"></ion-input>
+</ion-item>
+
+<ion-item >
+  <ion-label >Category</ion-label>
+  <ion-input  [(ngModel)]="data.category"></ion-input>
+</ion-item>
+
+
+<ion-item >
+  <ion-label >KeyWords</ion-label>
+  <ion-input  [(ngModel)]="data.keyWords"></ion-input>
+</ion-item>
+
+<ion-button (click)="update()" color="success" size="small" >Mettre à jour</ion-button>
+<ion-button  routerLink='/tabs/tab2' color="secondary"  size="small">Annuler</ion-button>
+</ion-content>
